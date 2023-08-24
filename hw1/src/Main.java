@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
 
@@ -84,11 +85,9 @@ public class Main {
     }
 
     public static void Task6() {
-
         double mToMi = 0.0006214;
         double mToFt = 3.2808;
         double mToYd = 1.0936;
-
         Scanner scanner = new Scanner(System.in);
 
         double meters = scanner.nextDouble();
@@ -172,7 +171,6 @@ public class Main {
     }
 
     public static void Task10() {
-
         Scanner scanner = new Scanner(System.in);
 
         var arr = new int[10];
@@ -235,5 +233,4 @@ public class Main {
             arr[i] = random.nextInt(min, max);
         }
     }
-
 }
